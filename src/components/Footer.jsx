@@ -5,14 +5,14 @@ import { FaInstagram, FaFacebook, FaTwitter } from "react-icons/fa";
 
 function Footer() {
     return (
-        <div className="bg-dark text-white mt-5 pt-4 pb-3" style={{ borderTop: "1px solid aqua" }}>
+        <div className="Footer bg-dark text-white mt-5 pt-4 pb-3" style={{ borderTop: "1px solid aqua" }}>
 
             <div className="container">
 
                 <div className="row">
 
                     {/* About */}
-                    <div className="col-12 col-md-4 mb-3">
+                    <div className="col-6 col-md-4 col-lg-3 mb-3">
                         <h5 className="fw-bold">Event HQ</h5>
                         <p className="text-secondary small">
                             Discover and book amazing events happening around you.
@@ -21,7 +21,7 @@ function Footer() {
                     </div>
 
                     {/* Quick Links */}
-                    <div className="col-6 col-md-2 mb-3">
+                  <div className="col-6 col-md-4 col-lg-3 mb-3">
                         <h6 className="fw-bold">Links</h6>
                         <ul className="list-unstyled small">
                             <li><a href="/" className="text-secondary text-decoration-none">Home</a></li>
@@ -31,7 +31,7 @@ function Footer() {
                     </div>
 
                     {/* Categories */}
-                    <div className="col-6 col-md-3 mb-3">
+                   <div className="col-6 col-md-4 col-lg-3 mb-3">
                         <h6 className="fw-bold">Categories</h6>
                         <ul className="list-unstyled small">
                             <li className="text-secondary">Music</li>
@@ -42,7 +42,7 @@ function Footer() {
                     </div>
 
                     {/* Contact */}
-                    <div className="col-12 col-md-3 mb-3">
+                     <div className="col-6 col-md-4 col-lg-3 mb-3">
                         <h6 className="fw-bold">Contact</h6>
 
                         <p className="text-secondary small mb-1 d-flex align-items-center gap-2">
