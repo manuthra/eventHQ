@@ -1,0 +1,72 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Lora", serif;
+
+}
+body {
+  background-image: url("https://i.pinimg.com/736x/2a/eb/2a/2aeb2aa6236f915a97c3882ebb669929.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+.neon-text {
+  color: rgb(201, 222, 239);
+  text-shadow: 
+    0 0 5px rgb(15, 15, 45),
+    0 0 10px rgb(101, 199, 222),
+    0 0 20px rgb(47, 52, 111);
+}
+
+
+.card:hover{
+  transform: scale(1.03);
+  transition: 0.3s;
+  
+}
+.nav-link{
+  color: aqua;
+}
+
+input:invalid {
+  border: 1px solid red;
+}
+
+input:valid {
+  border: 1px solid green;
+}
+
+.quote-line {
+  width: 8px;
+  height: 80px;
+  border-radius: 10px;
+  background: linear-gradient(to bottom, #00c6ff, #ff00cc);
+}
+
+.chip {
+  padding: 7px 16px;
+  border-radius: 20px;
+  background: black;
+  border: 1.5px solid rgb(87, 147, 173);
+  font-size: 13px;
+  color: white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.chip:hover {
+  background: rgba(245, 245, 247, 0);
+  border-color: black;
+}
+
+
+
+@media (max-width: 768px) {
+  .carousel-item {
+    height: 350px;
+   
+  }
+}

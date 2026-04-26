@@ -1,0 +1,129 @@
+{
+  "events": [
+    {
+      "id": "1",
+      "title": "Tech Fest",
+      "category": "Technical",
+      "date": "2026-05-10",
+      "location": "Jain University, Kochi",
+      "price": 500,
+      "totalSeats": 50,
+      "bookedSeats": [],
+      "image": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg"
+    },
+    {
+      "id": "2",
+      "title": "Music Night",
+      "category": "Cultural",
+      "date": "2026-05-15",
+      "location": "Ashirvad Lawns, Calicut",
+      "price": 450,
+      "totalSeats": 30,
+      "bookedSeats": [],
+      "image": "https://images.pexels.com/photos/2747449/pexels-photo-2747449.jpeg"
+    },
+    {
+      "id": "3",
+      "title": "Startup Meetup",
+      "category": "Business",
+      "date": "2026-05-20",
+      "location": "Infopark, Kochi",
+      "price": 300,
+      "totalSeats": 40,
+      "bookedSeats": [],
+      "image": "https://images.pexels.com/photos/3182763/pexels-photo-3182763.jpeg"
+    },
+    {
+      "id": "4",
+      "title": "Dance Fest",
+      "category": "Cultural",
+      "date": "2026-05-22",
+      "location": "Town Hall, Trivandrum",
+      "price": 350,
+      "totalSeats": 60,
+      "bookedSeats": [],
+      "image": "https://images.pexels.com/photos/14602419/pexels-photo-14602419.jpeg"
+    },
+    {
+      "id": "5",
+      "title": "AI Workshop",
+      "category": "Technical",
+      "date": "2026-05-25",
+      "location": "IIT Palakkad",
+      "price": 700,
+      "totalSeats": 25,
+      "bookedSeats": [],
+      "image": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg"
+    },
+    {
+      "id": "6",
+      "title": "Comedy Night",
+      "category": "Entertainment",
+      "date": "2026-05-28",
+      "location": "Jubilee Hills, Hyderabad",
+      "price": 400,
+      "totalSeats": 45,
+      "bookedSeats": [],
+      "image": "https://images.pexels.com/photos/713149/pexels-photo-713149.jpeg"
+    },
+    {
+      "id": "7",
+      "title": "Food Carnival",
+      "category": "Lifestyle",
+      "date": "2026-06-02",
+      "location": "Island Grounds, Chennai ",
+      "price": 200,
+      "totalSeats": 100,
+      "bookedSeats": [],
+      "image": "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg"
+    },
+    {
+      "id": "8",
+      "title": "Gaming Tournament",
+      "category": "Technical",
+      "date": "2026-06-05",
+      "location": "Cyber Park, Banglore",
+      "price": 600,
+      "totalSeats": 32,
+      "bookedSeats": [],
+      "image": "https://images.pexels.com/photos/791557/pexels-photo-791557.jpeg"
+    }
+  ],
+  "bookings": [
+    {
+      "name": "m",
+      "event": {
+        "id": "2",
+        "title": "Music Night",
+        "category": "Cultural",
+        "date": "2026-05-15",
+        "location": "Ashirvad Lawns, Calicut",
+        "price": 450,
+        "totalSeats": 30,
+        "bookedSeats": [],
+        "image": "https://images.pexels.com/photos/2747449/pexels-photo-2747449.jpeg"
+      },
+      "tickets": "3",
+      "date": "26/4/2026, 7:56:46 pm",
+      "id": "YmLT9eMPfB4"
+    },
+    {
+      "name": "sindhu",
+      "event": {
+        "id": "8",
+        "title": "Gaming Tournament",
+        "category": "Technical",
+        "date": "2026-06-05",
+        "location": "Cyber Park, Banglore",
+        "price": 600,
+        "totalSeats": 32,
+        "bookedSeats": [],
+        "image": "https://images.pexels.com/photos/791557/pexels-photo-791557.jpeg"
+      },
+      "tickets": "1",
+      "date": "26/4/2026, 8:15:59 pm",
+      "id": "y5CIrw1QvzE"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
