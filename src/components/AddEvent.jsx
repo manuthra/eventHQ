@@ -32,7 +32,7 @@ function AddEvent() {
 
         }
 
-        await fetch("http://localhost:3001/events", {
+        await fetch("https://eventhq-s55w.onrender.com/events", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
@@ -42,6 +42,7 @@ function AddEvent() {
 
         alert("event added")
         navigate("/")
+        
     }
 
     return (

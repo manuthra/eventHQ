@@ -31,7 +31,7 @@ function Home() {
             const result = await getEventsAPI()
             setEvents(result.data);
         } catch (error) {
-            console.log(err);
+            console.log(error);
 
         }
     }

@@ -87,6 +87,56 @@
       "totalSeats": 32,
       "bookedSeats": [],
       "image": "https://images.pexels.com/photos/791557/pexels-photo-791557.jpeg"
+    },
+    {
+      "title": "music night",
+      "category": "Concert",
+      "location": "chennai",
+      "price": "650",
+      "organizer": "District",
+      "date": "2003-05-26",
+      "image": "",
+      "id": "hlq76AQiT-4"
+    },
+    {
+      "title": "music",
+      "category": "Concert",
+      "location": "chennai",
+      "price": "300",
+      "organizer": "Paytm Insider",
+      "date": "2003-05-26",
+      "image": "",
+      "id": "LbbbQfLTBBw"
+    },
+    {
+      "title": "music",
+      "category": "Workshop",
+      "location": "chennai",
+      "price": "400",
+      "organizer": "Paytm Insider",
+      "date": "2026-05-26",
+      "image": "",
+      "id": "RaD7zCffI80"
+    },
+    {
+      "title": "music ",
+      "category": "Concert",
+      "location": "chennai",
+      "price": "345",
+      "organizer": "District",
+      "date": "2026-05-26",
+      "image": "",
+      "id": "naQrCU4P3Jc"
+    },
+    {
+      "title": "m",
+      "category": "Comedy",
+      "location": "kochi",
+      "price": "689",
+      "organizer": "BookMyShow",
+      "date": "2026-05-23",
+      "image": "",
+      "id": "xUybmayV7eU"
     }
   ],
   "bookings": [
