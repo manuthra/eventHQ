@@ -58,8 +58,8 @@ input:valid {
 }
 
 .chip:hover {
-  background: rgba(245, 245, 247, 0);
-  border-color: black;
+  background: rgba(94, 148, 243, 0.881);
+  border-color: rgb(0, 0, 0);
 }
 
 

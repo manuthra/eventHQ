@@ -93,6 +93,40 @@
     {
       "name": "m",
       "event": {
+        "id": "3",
+        "title": "Startup Meetup",
+        "category": "Business",
+        "date": "2026-05-20",
+        "location": "Infopark, Kochi",
+        "price": 300,
+        "totalSeats": 40,
+        "bookedSeats": [],
+        "image": "https://images.pexels.com/photos/3182763/pexels-photo-3182763.jpeg"
+      },
+      "tickets": "3",
+      "date": "26/4/2026, 11:19:47 pm",
+      "id": "5r8BVw0qEjs"
+    },
+    {
+      "name": "m",
+      "event": {
+        "id": "5",
+        "title": "AI Workshop",
+        "category": "Technical",
+        "date": "2026-05-25",
+        "location": "IIT Palakkad",
+        "price": 700,
+        "totalSeats": 25,
+        "bookedSeats": [],
+        "image": "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg"
+      },
+      "tickets": "3",
+      "date": "26/4/2026, 11:20:06 pm",
+      "id": "DjiuxgmvfRE"
+    },
+    {
+      "name": "m",
+      "event": {
         "id": "2",
         "title": "Music Night",
         "category": "Cultural",
@@ -104,25 +138,8 @@
         "image": "https://images.pexels.com/photos/2747449/pexels-photo-2747449.jpeg"
       },
       "tickets": "3",
-      "date": "26/4/2026, 7:56:46 pm",
-      "id": "YmLT9eMPfB4"
-    },
-    {
-      "name": "sindhu",
-      "event": {
-        "id": "8",
-        "title": "Gaming Tournament",
-        "category": "Technical",
-        "date": "2026-06-05",
-        "location": "Cyber Park, Banglore",
-        "price": 600,
-        "totalSeats": 32,
-        "bookedSeats": [],
-        "image": "https://images.pexels.com/photos/791557/pexels-photo-791557.jpeg"
-      },
-      "tickets": "1",
-      "date": "26/4/2026, 8:15:59 pm",
-      "id": "y5CIrw1QvzE"
+      "date": "26/4/2026, 11:22:55 pm",
+      "id": "uvmOP5-N5mY"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

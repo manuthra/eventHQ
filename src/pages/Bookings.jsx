@@ -1,14 +1,18 @@
 import React, { useEffect, useState } from "react"
 import { FaMapMarkerAlt, FaClock, FaTicketAlt } from "react-icons/fa"
+import { getBookingsAPI, deleteBookingAPI } from "../services/eventAPI";
 
 function Bookings() {
 
     const [bookings, setBookings] = useState([])
 
+    const getBookings = async () => {
+        const response = await getBookingsAPI()
+        setBookings(response.data)
+    }
+
     useEffect(() => {
-        fetch("http://localhost:3001/bookings")
-            .then(res => res.json())
-            .then(data => setBookings(data))
+        getBookings()
     }, [])
 
     return (
@@ -26,8 +30,7 @@ function Bookings() {
                             <div className="card bg-dark text-white p-2" style={{ border: "1px solid aqua" }}>
 
                                 <img src={item.event.image} alt="event" className="img-fluid rounded mb-2"
-                                    style={{ height: "170px", objectFit: "cover" }}
-                                />
+                                    style={{ height: "170px", objectFit: "cover" }} />
 
                                 <div className="px-2">
 
@@ -44,23 +47,19 @@ function Bookings() {
                                     </p>
 
                                     <p className="small">
-                                        <FaTicketAlt /> {item.tickets} tickets</p>
+                                        <FaTicketAlt /> {item.tickets} tickets
+                                    </p>
 
                                     <hr />
 
                                     <div className="d-flex justify-content-between align-items-center">
 
-                                        <span className="text-warning">
-                                            ₹{item.event.price}
-                                        </span>
+                                        <span className="text-warning"> ₹{item.event.price}</span>
 
-                                        <button
-                                            className="btn btn-danger btn-sm"
-                                            onClick={() => {
-                                                fetch("http://localhost:3001/bookings/" + item.id, {
-                                                    method: "DELETE"
-                                                })
-                                                window.location.reload()
+                                        <button className="btn btn-danger btn-sm" onClick={
+                                            async () => {
+                                                await deleteBookingAPI(item.id)
+                                                getBookings()
                                             }}>Cancel</button>
 
                                     </div>

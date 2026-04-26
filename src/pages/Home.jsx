@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react'
 import Navbar from '../components/Navbar'
 import EventCard from '../components/EventCard'
 import { getEventsAPI } from "../services/eventAPI";
-import {useNavigate  } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
+import { deleteEventAPI } from "../services/eventAPI";
 
 
 function Home() {
@@ -34,6 +35,10 @@ function Home() {
     }
 
 
+    const handleDelete = async (id) => {
+        await deleteEventAPI(id)
+        getEvents()
+    }
 
 
     return (
@@ -113,7 +118,7 @@ function Home() {
                     {/* heading and button */}
                     <div className="d-flex justify-content-between align-items-center mb-3">
                         <h5 className="text-white mb-0">All Events</h5>
-                        <button onClick={()=>navigate("/add")} className="btn btn-primary btn-sm">
+                        <button onClick={() => navigate("/add")} className="btn btn-primary btn-sm">
                             + Add Event</button>
                     </div>
 
@@ -177,7 +182,7 @@ function Home() {
                                 .map((item) => (
                                     <div
                                         key={item.id} className="col-12 col-md-4 col-sm-6 mb-5 px-4">
-                                        <EventCard event={item} />
+                                        <EventCard event={item} onDelete={handleDelete} />
                                     </div>
                                 ))
 
