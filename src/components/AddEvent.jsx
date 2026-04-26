@@ -77,11 +77,7 @@ function AddEvent() {
                     <option>Skillbox</option>
                 </select>
 
-                <input
-                    type="date"
-                    className="form-control mb-2"
-                    onChange={(e) => setDate(e.target.value)}
-                />
+                <input type="date" className="form-control mb-2" onChange={(e) => setDate(e.target.value)} />
                 <button className="btn btn-primary btn-sm mb-2" onClick={handleSubmit}>Add</button>
 
                 <button className="btn btn-secondary btn-sm" onClick={() => navigate("/")}>Cancel </button>

@@ -140,6 +140,23 @@
       "tickets": "3",
       "date": "26/4/2026, 11:22:55 pm",
       "id": "uvmOP5-N5mY"
+    },
+    {
+      "name": "m",
+      "event": {
+        "id": "2",
+        "title": "Music Night",
+        "category": "Cultural",
+        "date": "2026-05-15",
+        "location": "Ashirvad Lawns, Calicut",
+        "price": 450,
+        "totalSeats": 30,
+        "bookedSeats": [],
+        "image": "https://images.pexels.com/photos/2747449/pexels-photo-2747449.jpeg"
+      },
+      "tickets": "3",
+      "date": "26/4/2026, 11:29:24 pm",
+      "id": "80FWQJ2bIFQ"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
