@@ -242,6 +242,23 @@
       "tickets": "3",
       "date": "27/4/2026, 12:22:26 am",
       "id": "qCY7gxbRvn4"
+    },
+    {
+      "name": "m",
+      "event": {
+        "id": "1",
+        "title": "Tech Fest",
+        "category": "Technical",
+        "date": "2026-05-10",
+        "location": "Jain University, Kochi",
+        "price": 500,
+        "totalSeats": 50,
+        "bookedSeats": [],
+        "image": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg"
+      },
+      "tickets": "3",
+      "date": "27/4/2026, 12:29:16 am",
+      "id": "2DDIlfGyv7I"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

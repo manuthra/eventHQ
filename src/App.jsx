@@ -7,23 +7,25 @@ import Booking from "./pages/Booking";
 import AddEvent from "./components/AddEvent"
 import Bookings from "./pages/Bookings"
 import About from "./pages/About";
+import Footer from "./components/Footer";
 
 function App() {
 
   return (
-    <Routes>
-      <Route path="/login" element={<Login />} />
-      <Route path="/" element={<Home />} />
-      <Route path="/booking" element={<Booking />} />
-      <Route path="/bookings" element={<Bookings />} />
+    <>
+      <Routes>
+        <Route path="/login" element={<Login />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/booking" element={<Booking />} />
+        <Route path="/bookings" element={<Bookings />} />
 
 
-      <Route path="/confirmation" element={<Confirmation />} />
-      <Route path="/add" element={<AddEvent />} />
-      <Route path="/about" element={<About />} />
-      
-
-    </Routes>
+        <Route path="/confirmation" element={<Confirmation />} />
+        <Route path="/add" element={<AddEvent />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+      <Footer />
+    </>
   )
 }
 

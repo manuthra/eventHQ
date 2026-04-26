@@ -1,11 +1,11 @@
-
-*{
+* {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
   font-family: "Lora", serif;
 
 }
+
 body {
   background-image: url("https://i.pinimg.com/736x/2a/eb/2a/2aeb2aa6236f915a97c3882ebb669929.jpg");
   background-size: cover;
@@ -13,21 +13,23 @@ body {
   background-repeat: no-repeat;
   min-height: 100vh;
 }
+
 .neon-text {
   color: rgb(201, 222, 239);
-  text-shadow: 
+  text-shadow:
     0 0 5px rgb(15, 15, 45),
     0 0 10px rgb(101, 199, 222),
     0 0 20px rgb(47, 52, 111);
 }
 
 
-.card:hover{
+.card:hover {
   transform: scale(1.03);
   transition: 0.3s;
-  
+
 }
-.nav-link{
+
+.nav-link {
   color: aqua;
 }
 
@@ -63,10 +65,24 @@ input:valid {
 }
 
 
+.carousel-img {
+  height: 350px;
+  object-fit: cover;
+}
+
+
 
 @media (max-width: 768px) {
-  .carousel-item {
-    height: 350px;
-   
+  .carousel-img {
+    height: 220px;
+  }
+}
+
+
+
+
+@media (max-width: 480px) {
+  .carousel-img {
+    height: 180px;
   }
 }

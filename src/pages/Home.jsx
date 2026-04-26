@@ -4,6 +4,8 @@ import EventCard from '../components/EventCard'
 import { getEventsAPI } from "../services/eventAPI";
 import { useNavigate } from "react-router-dom";
 import { deleteEventAPI } from "../services/eventAPI";
+import Footer from '../components/Footer';
+
 
 
 function Home() {
@@ -45,42 +47,56 @@ function Home() {
         <>
             <Navbar />
             <div className='container-fluid mt-4'>
-                <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel" >
+                <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
+
                     <div className="carousel-inner">
+
+                        {/* Slide 1 */}
                         <div className="carousel-item active">
-                            <div style={{ height: "380px", overflow: "hidden" }}>
-                                <img src="https://images.unsplash.com/photo-1558008258-3256797b43f3?q=80&auto=format&fit=crop&w=1200&h=350" className="d-block w-100" style={{ height: '100%', objectFit: 'cover', objectPosition: 'center' }} alt="..."></img>
-                            </div>
+                            <img src="https://images.unsplash.com/photo-1558008258-3256797b43f3"
+                                className="d-block w-100 carousel-img"
+                                alt="event"/>
                         </div>
+
+                        {/* Slide 2 */}
                         <div className="carousel-item">
-                            <div style={{ height: "380px", overflow: "hidden" }}>
-                                <img src="https://images.pexels.com/photos/1387174/pexels-photo-1387174.jpeg?auto=compress&cs=tinysrgb&w=1200&h=350&fit=crop" className="d-block w-100" style={{ height: '100%', objectFit: 'cover', objectPosition: 'center' }} alt="..."></img>
-                            </div>
+                            <img src="https://images.pexels.com/photos/1387174/pexels-photo-1387174.jpeg"
+                                className="d-block w-100 carousel-img"
+                                alt="event" />
                         </div>
+
+                        {/* Slide 3 */}
                         <div className="carousel-item">
-                            <div style={{ height: "380px", overflow: "hidden" }}>
-                                <img src="https://images.pexels.com/photos/9443903/pexels-photo-9443903.jpeg?auto=compress&cs=tinysrgb&w=1200&h=350&fit=crop" className="d-block w-100" style={{ height: '100%', objectFit: 'cover', objectPosition: 'center' }} alt="..."></img>
-                            </div>
+                            <img src="https://images.pexels.com/photos/9443903/pexels-photo-9443903.jpeg"
+                                className="d-block w-100 carousel-img"
+                                alt="event"/>
                         </div>
+
+                        {/* Slide 4 */}
                         <div className="carousel-item">
-                            <div style={{ height: "380px", overflow: "hidden" }}>
-                                <img src="https://images.pexels.com/photos/1840320/pexels-photo-1840320.jpeg" className="d-block w-100" style={{ height: '100%', objectFit: 'cover', objectPosition: 'center' }} alt="..."></img>
-                            </div>
+                            <img src="https://images.pexels.com/photos/1840320/pexels-photo-1840320.jpeg"
+                                className="d-block w-100 carousel-img"
+                                alt="event"/>
                         </div>
+
+                        {/* Slide 5 */}
                         <div className="carousel-item">
-                            <div style={{ height: "380px", overflow: "hidden" }}>
-                                <img src="https://images.pexels.com/photos/16039776/pexels-photo-16039776.jpeg?auto=compress&cs=tinysrgb&w=1200&h=350&fit=crop" className="d-block w-100" style={{ height: '100%', objectFit: 'cover', objectPosition: 'center' }} alt="..."></img>
-                            </div>
+                            <img src="https://images.pexels.com/photos/16039776/pexels-photo-16039776.jpeg"
+                                className="d-block w-100 carousel-img"
+                                alt="event"/>
                         </div>
+
                     </div>
+
+                    {/* Controls */}
                     <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span className="visually-hidden">Previous</span>
+                        <span className="carousel-control-prev-icon"></span>
                     </button>
+
                     <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span className="visually-hidden">Next</span>
+                        <span className="carousel-control-next-icon"></span>
                     </button>
+
                 </div>
                 <br />
                 <br />
