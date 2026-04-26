@@ -157,6 +157,91 @@
       "tickets": "3",
       "date": "26/4/2026, 11:29:24 pm",
       "id": "80FWQJ2bIFQ"
+    },
+    {
+      "name": "m",
+      "event": {
+        "id": "2",
+        "title": "Music Night",
+        "category": "Cultural",
+        "date": "2026-05-15",
+        "location": "Ashirvad Lawns, Calicut",
+        "price": 450,
+        "totalSeats": 30,
+        "bookedSeats": [],
+        "image": "https://images.pexels.com/photos/2747449/pexels-photo-2747449.jpeg"
+      },
+      "tickets": "3",
+      "date": "27/4/2026, 12:16:43 am",
+      "id": "d4GQ3kANIso"
+    },
+    {
+      "name": "m",
+      "event": {
+        "id": "2",
+        "title": "Music Night",
+        "category": "Cultural",
+        "date": "2026-05-15",
+        "location": "Ashirvad Lawns, Calicut",
+        "price": 450,
+        "totalSeats": 30,
+        "bookedSeats": [],
+        "image": "https://images.pexels.com/photos/2747449/pexels-photo-2747449.jpeg"
+      },
+      "tickets": "3",
+      "date": "27/4/2026, 12:16:44 am",
+      "id": "fCjF11O4tzM"
+    },
+    {
+      "name": "m",
+      "event": {
+        "id": "3",
+        "title": "Startup Meetup",
+        "category": "Business",
+        "date": "2026-05-20",
+        "location": "Infopark, Kochi",
+        "price": 300,
+        "totalSeats": 40,
+        "bookedSeats": [],
+        "image": "https://images.pexels.com/photos/3182763/pexels-photo-3182763.jpeg"
+      },
+      "tickets": "3",
+      "date": "27/4/2026, 12:17:07 am",
+      "id": "srVNVOLQkDQ"
+    },
+    {
+      "name": "m",
+      "event": {
+        "id": "1",
+        "title": "Tech Fest",
+        "category": "Technical",
+        "date": "2026-05-10",
+        "location": "Jain University, Kochi",
+        "price": 500,
+        "totalSeats": 50,
+        "bookedSeats": [],
+        "image": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg"
+      },
+      "tickets": "3",
+      "date": "27/4/2026, 12:19:09 am",
+      "id": "QIhs3ChoX6U"
+    },
+    {
+      "name": "m",
+      "event": {
+        "id": "1",
+        "title": "Tech Fest",
+        "category": "Technical",
+        "date": "2026-05-10",
+        "location": "Jain University, Kochi",
+        "price": 500,
+        "totalSeats": 50,
+        "bookedSeats": [],
+        "image": "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg"
+      },
+      "tickets": "3",
+      "date": "27/4/2026, 12:22:26 am",
+      "id": "qCY7gxbRvn4"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

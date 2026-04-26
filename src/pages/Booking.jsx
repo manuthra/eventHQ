@@ -38,7 +38,7 @@ function Booking() {
             tickets,
             date: new Date().toLocaleString(),
         };
-        await fetch("http://localhost:3001/bookings", {
+       await fetch("https://eventhq-s55w.onrender.com/bookings", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
