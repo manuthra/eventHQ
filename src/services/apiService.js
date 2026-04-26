@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL:"http://localhost:3001"
+    baseURL:"https://eventhq-s55w.onrender.com"
 });
 
 export default api;
